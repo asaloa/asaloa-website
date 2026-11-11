@@ -344,10 +344,9 @@ body{margin:0}
 /* Das Boot */
 .boat{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.5fr);gap:var(--space-12);align-items:start}
 .boat .head{gap:var(--space-4)}
-.boat-gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:var(--space-4)}
+.boat-gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--space-4)}
 .boat-gallery .bild:first-child{grid-column:1/-1}
 @media (max-width: 900px){.boat{grid-template-columns:1fr;gap:var(--space-8)}}
-@media (max-width: 520px){.boat-gallery{grid-template-columns:repeat(2,minmax(0,1fr))}.boat-gallery .bild:last-child{grid-column:1/-1;aspect-ratio:16/9}}
 
 /* Team-Karten mit Foto */
 .person{overflow:hidden}
