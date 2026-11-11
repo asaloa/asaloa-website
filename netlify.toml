@@ -1,0 +1,4 @@
+# Statische Seite: kein Build-Schritt, veröffentlicht wird das Wurzelverzeichnis.
+[build]
+  publish = "."
+  command = "echo 'Statische Seite, kein Build noetig'"
